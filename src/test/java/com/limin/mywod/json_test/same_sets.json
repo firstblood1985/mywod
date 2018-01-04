@@ -1,0 +1,24 @@
+{
+  "type": "SETS",
+  "name": "",
+  "SETS": {
+    "totalSets": "3",
+    "sameSet": true,
+    "setsDetails": [
+      {
+        "setId": 1,
+        "movements": [
+          {
+            "movmentId": 1,
+            "rep": 3,
+            "load": 100,
+            "unit": "KG"
+          }
+        ]
+      }
+    ]
+  },
+  "duration": null,
+  "totalReps": null,
+  "isBenMark": true
+}

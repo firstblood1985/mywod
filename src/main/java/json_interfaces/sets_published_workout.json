@@ -1,0 +1,58 @@
+{
+  "type": "SETS",
+  "name": "",
+  "SETS": {
+    "totalSets": "3",
+    "sameSet": false,
+    "setsDetails": [
+      {
+        "setId": 1,
+        "movements": [
+          {
+            "movementId": 5,
+            "rep": 21,
+            "load": 95,
+            "unit": "POUND"
+          },
+          {
+            "movementId": 6,
+            "rep": 21
+          }
+        ]
+      },
+      {
+        "setId": 2,
+        "movements": [
+          {
+            "movementId": 5,
+            "rep": 15,
+            "load": 95,
+            "unit": "POUND"
+          },
+          {
+            "movementId": 6,
+            "rep": 15
+          }
+        ]
+      },
+      {
+        "setId": 3,
+        "movements": [
+          {
+            "movementId": 5,
+            "rep": 9,
+            "load": 95,
+            "unit": "POUND"
+          },
+          {
+            "movementId": 6,
+            "rep": 9
+          }
+        ]
+      }
+    ]
+  },
+  "duration": null,
+  "totalReps": null,
+  "isBenchMark": "N"
+}
