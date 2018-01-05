@@ -25,4 +25,6 @@ public class UserController {
 
         return (List<User>) this.userRepository.findAll();
     }
+
+    //this is a test commit from Intellij
 }
