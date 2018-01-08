@@ -24,6 +24,19 @@ public abstract class TestUtility {
     @Autowired
     private UserRepository userRepository;
 
+    public  User generateUser(){
+        User user = new User();
+        user.setLogin("limengm");
+        user.setPassword("helloworld");
+        user.setAdmin(true);
+        user.setDeleted(false);
+        user.setEmail("limengm@ms.com");
+        user.setFirstName("Mengmeng");
+        user.setLastName("Li");
+        user.setPhone("18621717870");
+
+        return user;
+    }
 
     public LoggedWorkoutRequest createLoggedWorkoutRequest()
     {

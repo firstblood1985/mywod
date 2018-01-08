@@ -22,6 +22,9 @@ public class User {
     @Column(name="LOGIN")
     private String login;
 
+    @Column(name="PASSWORD")
+    private String password;
+
     @Column(name="FIRST_NAME")
     private String firstName;
 
@@ -128,5 +131,30 @@ public class User {
 
     public void setOwnedAffiliates(Set<Affiliate> ownedAffiliates) {
         this.ownedAffiliates = ownedAffiliates;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", login='" + login + '\'' +
+                ", password='" + password + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", email='" + email + '\'' +
+                ", phone='" + phone + '\'' +
+                ", isAdmin=" + isAdmin +
+                ", isDeleted=" + isDeleted +
+                ", ownedAffiliates=" + ownedAffiliates +
+                ", joinedAffiliates=" + joinedAffiliates +
+                '}';
     }
 }
